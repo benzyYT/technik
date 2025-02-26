@@ -11,42 +11,29 @@ Ein symmetrisches Kabel besteht aus drei Leitungen:
 - **Signal- (Cold, invertiert)**
 - **Masse (Shield, Ground)**
 
-Das Signal wird zweimal übertragen: einmal normal (
-**S+**) und einmal invertiert (**S-**). Dadurch können Störungen, die sich gleich auf beide Signale auswirken, effektiv entfernt werden.
+Das Signal wird zweimal übertragen: einmal normal (**S+**) und einmal invertiert (**S-**). Dadurch können Störungen, die sich gleich auf beide Signale auswirken, effektiv entfernt werden.
 
 ---
 
 ## **3. Mathematische Rekonstruktion**
 Um das eigentliche Signal aus dem symmetrischen Signal zurückzugewinnen, wird die Differenz der beiden Signale gebildet:
 
-\[
-S_{\text{out}} = S_{+} - S_{-}
-\]
+S_out = S+ - S-
 
-Da Störungen \( N \) sich gleich auf beide Leitungen auswirken, gilt:
+Da Störungen N sich gleich auf beide Leitungen auswirken, gilt:
 
-\[
-S_{+} = S + N
-\]
-\[
-S_{-} = -S + N
-\]
+S+ = S + N
+S- = -S + N
 
 Durch die Differenzbildung ergibt sich:
 
-\[
-S_{\text{out}} = (S + N) - (-S + N)
-\]
-\[
-S_{\text{out}} = S + N + S - N
-\]
-\[
-S_{\text{out}} = 2S
-\]
+S_out = (S + N) - (-S + N)
+S_out = S + N + S - N
+S_out = 2S
 
 **Ergebnis:**
-- Das eigentliche Signal \( S \) wird verstärkt.
-- Die Störung \( N \) wird herausgefiltert (Gleichtaktunterdrückung).
+- Das eigentliche Signal S wird verstärkt.
+- Die Störung N wird herausgefiltert (Gleichtaktunterdrückung).
 
 ---
 
