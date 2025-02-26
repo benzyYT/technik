@@ -58,7 +58,33 @@ S_{\text{out}} = 2S
 
 ---
 
-## **5. Fazit**
+## **5. Steckerbelegung für Symmetrische und Unsymmetrische Beschaltung**
+
+### **XLR auf XLR (symmetrisch)**
+- Pin 1: Masse (Shield)
+- Pin 2: Signal + (Hot)
+- Pin 3: Signal - (Cold)
+
+### **Klinke auf Klinke (symmetrisch)**
+- Spitze (Tip): Signal + (Hot)
+- Ring: Signal - (Cold)
+- Schaft (Sleeve): Masse (Shield)
+
+### **XLR auf Klinke (symmetrisch)**
+- XLR Pin 1 → Klinke Sleeve (Masse)
+- XLR Pin 2 → Klinke Tip (Signal +)
+- XLR Pin 3 → Klinke Ring (Signal -)
+
+### **XLR auf Klinke (unsymmetrisch)**
+- XLR Pin 1 → Klinke Sleeve (Masse)
+- XLR Pin 2 → Klinke Tip (Signal)
+- XLR Pin 3 → mit Pin 1 verbunden (kein invertiertes Signal)
+
+Diese Belegungen sind wichtig, um die Signalqualität zu erhalten und Störungen zu vermeiden.
+
+---
+
+## **6. Fazit**
 Die symmetrische Signalübertragung ist eine effektive Methode zur Störungsreduzierung und wird in der professionellen Audiotechnik bevorzugt. Durch die Differenzbildung wird das eigentliche Signal verstärkt und Störungen werden eliminiert, wodurch eine hohe Klangqualität gewährleistet wird.
 
 **Anwendungsbereiche:**
